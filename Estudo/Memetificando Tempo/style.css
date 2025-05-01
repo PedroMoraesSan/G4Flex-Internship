@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    align-items: center;
+}
+
+.container {
+    margin-top: 30px;
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.espelho {
+    border: 2px solid #333; 
+    align-items: center;
+    align-content: center;
+    margin: 50px 50px; 
+}
+
+.gato {
+    border: 2px solid #333;
+    padding: 40px; 
+}
+
+.pudim {
+    border: 2px solid #333;
+    padding: 40px; 
+
+}
+
+.anao {
+    border: 2px solid #333;   
+    padding: 40px; 
+ 
+}

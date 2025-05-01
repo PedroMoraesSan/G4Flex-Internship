@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task List Page - Página de Tarefas</title>
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="/Projeto Lista de Tarefas 2/CSS/lista.css" />
+</head>
+<body>
+  <header>
+    <h1 id="tituloPrincipal">Listas de Tarefas</h1>
+  </header>
+  <section>
+    <div class="dad">
+      <h1>Adicionar Lista</h1>
+      <input type="text" id="addListButton" placeholder="Adicione uma Lista.">
+      <button onclick="addList()">Adicionar</button>
+      <ul id="taskList"></ul>
+    </div>
+  </section>
+  <section>
+    <div id="child" class="container">
+      <h1>Escola</h1>
+      <input type="text" id="taskInput" placeholder="Adicione uma Tarefa.">
+      <button onclick="addTask()">Adicionar</button>
+      <ul id="taskList"></ul>
+  </div>
+  <div id="child" class="container">
+    <h1>Música</h1>
+    <input type="text" id="taskInput" placeholder="Adicione uma Tarefa.">
+    <button onclick="addTask()">Adicionar</button>
+    <ul id="taskList"></ul>
+  </div>
+  <div id="child" class="container">
+    <h1>Lista de Tarefas</h1>
+    <input type="text" id="taskInput" placeholder="Adicione uma Tarefa.">
+    <button onclick="addTask()">Adicionar</button>
+    <ul id="taskList"></ul>
+  </div>  
+  </section>
+  
+  <script src="/Projeto Lista de Tarefas 2/script.js"></script>
+</body>
+</html>

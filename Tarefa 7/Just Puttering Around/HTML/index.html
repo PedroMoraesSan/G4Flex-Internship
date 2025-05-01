@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa 7</title>
+    <link rel="stylesheet" href="/Just Puttering Around/HTML/CSS/style.css">
+</head>
+<body>
+    <!-- Criando um quiz para adicionar da demo da atividade 7 e também criando uma forma de armazenar os valores depositados no quiz. -->
+
+    <h1>Quiz</h1>
+
+    <!-- Formulário do Quiz -->
+    <form id="quiz-form">
+        <label for="username">Digite seu nome:</label><br>
+        <input type="text" id="username" required><br><br>
+        
+        <div class="question">
+            <label for="q1">1. Qual é a capital do Brasil?</label><br>
+            <input type="radio" name="q1" value="São Paulo"> São Paulo<br>
+            <input type="radio" name="q1" value="Rio de Janeiro"> Rio de Janeiro<br>
+            <input type="radio" name="q1" value="Brasília"> Brasília<br>
+        </div>
+        
+        <div class="question">
+            <label for="q2">2. Qual é a cor do céu em um dia claro?</label><br>
+            <input type="radio" name="q2" value="Azul"> Azul<br>
+            <input type="radio" name="q2" value="Vermelho"> Vermelho<br>
+            <input type="radio" name="q2" value="Verde"> Verde<br>
+        </div>
+
+        <div class="question">
+            <label for="q3">3. O que é JavaScript?</label><br>
+            <input type="radio" name="q3" value="Uma linguagem de programação"> Uma linguagem de programação<br>
+            <input type="radio" name="q3" value="Uma fruta"> Uma fruta<br>
+            <input type="radio" name="q3" value="Um navegador"> Um navegador<br>
+        </div>
+
+        <button type="button" onclick="submitQuiz()">Enviar</button>
+    </form>
+
+    <!-- Div oculta para armazenar as respostas -->
+    <div id="user-data" style="display: none;"></div>
+
+    <script src="/Just Puttering Around/HTML/JS/script.js"></script>
+
+</body>
+</html>

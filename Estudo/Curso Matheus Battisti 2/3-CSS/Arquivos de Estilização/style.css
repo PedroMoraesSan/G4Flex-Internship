@@ -1,0 +1,111 @@
+/* 4 - External CSS */
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    padding:30px;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+}
+
+/* Classes */
+
+.paragraph {
+    background-color: #24242477;
+    color:  #ffffff;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 3px;
+
+}
+
+/* Ids */
+
+#exclusive-title {
+    background-color: purple;
+    color: yellow; 
+    padding: 30px;
+    margin: 10px;
+    border-radius: 3px;
+    font-weight: 100;
+}
+
+#selector-order {
+    background-color: rgba(75, 0, 0, 0.937);
+    color:  white;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+div#caixaAlinhamento {
+    margin: 10px;
+    padding: 30px;
+    border-radius: 3px;
+    background-color: antiquewhite;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+#titleCaixaAlinhamento {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    
+}
+
+p#alinhamento1 {
+   text-align: center;
+}
+
+p#alinhamento2 {
+    text-align: right;
+}
+
+p#alinhamento3 {
+    text-align:justify;
+ }
+ 
+.sticky {
+    position: fixed;
+    background-color: #f5e000;
+    color: #2a2a2a;
+    padding: 10px; 
+    margin: 30px; 
+    top: 3px;
+    right: 3px;
+    border: solid 1px #333 ;
+    border-radius: 7px;
+}
+
+.sticky:hover {
+    background-color: #f5bc00;
+}
+
+#easterEgg {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

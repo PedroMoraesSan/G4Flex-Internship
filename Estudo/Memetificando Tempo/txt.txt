@@ -1,0 +1,6 @@
+Basicamente será uma página onde terão três principais quadrantes, e cada um irá gerar um output diferente dentro de um espelho
+:: 1: Gatinho: irá gerar uma imagem de um gato  
+:: 2: Pudim: irá gera a imagem de um pudim 
+:: 3: Anão: irá gerar a imagem de um anão em forma de meme. 
+
++

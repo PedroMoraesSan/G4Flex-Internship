@@ -1,0 +1,33 @@
+ul {
+    background-color: aliceblue;
+    padding: 5px 30px 30px 30px; 
+    border: 1px solid #333; 
+    border-radius: 3px;
+    margin: 10px;
+    margin-top: 40px;
+}
+
+p#Lista {
+    font-size: 20pt;
+    font-weight: 600;
+}
+
+li {
+    background-color: rgb(255, 248, 177);
+    padding: 15px;
+    border: 1px solid #333;
+    border-radius: 3px;
+    margin-bottom: 10px; 
+}
+
+li:hover {
+    transition: 90ms; 
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    margin-bottom: 20px;
+}
+
+hr {
+    margin-bottom: 10px; 
+}

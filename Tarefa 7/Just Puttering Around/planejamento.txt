@@ -1,0 +1,14 @@
+ Basicmanete o intuito da atividade 7 é começar a trabalhar com o salvamento de arquivos e com a lógica de banco de dados. 
+
+ Para isso, eu vou criar um quiz que será implementado na demo da atividade 7, onde ele irá obter as informações do quiz no momento de enviar e irá baixar automaticamente um documento de texto, que vai conter as informações do form em questão. 
+
+ // Form Quiz, perguntas e as respostas por meio da tag Radio, de múltipla escolha. 
+ // JavaScript pegando as informações do form por meio do getElementsById,  e salvando em um arquivo de texto. 
+ // informações: Verificação de veracidade de cada questão individualmente por meio  de um if. 
+ // Dentro do if já terá as informações que serão display dentro do arquivo, e após tudo ele somente irá criar e baixar o documento. 
+ // Obtenção de informações dos metadados do navegador por meio de um User Agent, e salvando no arquivo também.
+ // Criação de um arquivo de texto blob. 
+ // Baixando automaticamente através do envio do formulário. 
+
+ // Adicionando um emojzin pra felicidade comum. 
+ 

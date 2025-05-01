@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <!-- 3 - Internal CSS -->
+    <style> 
+      p#altP {
+        margin: auto;
+        line-height: 30px;
+        max-width: 200px;
+        color: aliceblue;
+        background-color: rgb(12, 12, 12);
+        padding: 30px; 
+        border: 5px solid #9f9f9f;  
+        border-radius: 10px; 
+
+      }
+
+      p#altP:hover {
+        background-color: rgb(47, 47, 47);
+        border: 5px solid #deae00;
+        transition: 1s;
+      }
+    </style>
+    <!-- 4 - External CSS: Cascading Style Sheets -->
+     <link rel="stylesheet" href="/3-CSS/Arquivos de Estilização/style.css"> <link rel="stylesheet" href="/3-CSS/Arquivos de Estilização/lists.css">
+
+</head>
+<body>
+ 
+    <!-- 1 - Inline CSS -->
+    <h1 style="color:blue"> Mudar cor com Inline CSS </h1>
+    <h1 style="color:antiquewhite; background-color: black; font-size: larger;" >Outro Título</h1>
+
+    <!-- 4 - External CSS -->
+    <p id="altP"> Eu sou um elemento que está sendo estilizado pela forma de estilização internal CSS </p>
+
+    <!-- 6 - Múltiplos CSS's -->
+     <ul>
+        <p id="Lista"> Lista de Compras </p>
+        <hr>
+        <li> Maçã </li>
+        <li> Banana </li>
+        <li> Laranja </li>
+        <li> Leite </li>
+        <li>  Pão </li>
+     </ul>
+
+    <!-- 8 - Classes -->
+     <p class="paragraph"> Algum texto 1 </p>
+     <p class="paragraph"> Algum texto 2 </p>
+     <p class="paragraph"> Algum texto 3 </p>
+
+    <!-- 9 - Id -->
+
+     <h1 id="exclusive-title">Este é um texto com ID</h1>
+
+    <!-- Hierarquia de Ordem nos seletores do CSS -->
+    <p id="selector-order">id > class > seletor de tag;</p>
+
+
+
+
+
+
+
+     <br/> 
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+
+     <footer>
+        &copy; Pedro H. M. Santos 2024
+     </footer>
+</body>
+</html>

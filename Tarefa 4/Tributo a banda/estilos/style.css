@@ -1,0 +1,102 @@
+/*Importando Fonte Montserrat*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 15px;
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #101010; 
+}
+
+header {
+    margin-top: 10px;
+    align-content: center;
+}
+
+img#logoDT {
+    max-width: 700px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+img#membrosDT {
+    max-width: 700px;
+    border-radius: 6px;
+}
+
+hr {
+    margin-top: 25px;
+    border: none;
+    height: 0.5px;
+    background-color: #d3d3d3;
+    border-radius: 5px; /* Arredonda os cantos da linha */
+}
+
+
+h1 {
+    color: #d3d3d3;
+    font-family: Montserrat;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #5acdff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+b {
+    font-weight: 300;
+}
+
+p {
+    color: #d3d3d3;
+    font-family: Montserrat;
+    font-weight: 100;
+    text-align: justify;
+    line-height: 1.7;
+    transition: background-color 0.4s ease, transform 0.4s ease;
+}
+
+p:hover {
+    background-color: #161616;
+    transform: scale(1.02);
+    border-radius: 3px;
+}
+
+iframe {
+    margin-top: 15px;
+    margin-bottom: 15px; 
+}
+
+div#iframeSpotify {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+footer {
+    border-top: 1px solid #363636;
+    padding: 15px; 
+    margin-top: 30px; 
+    height: 50px;
+}
+
+span {
+    color: #d3d3d3;
+    font-family: Montserrat;
+    font-weight: 100;
+    text-align: justify;
+    line-height: 1.7;
+}

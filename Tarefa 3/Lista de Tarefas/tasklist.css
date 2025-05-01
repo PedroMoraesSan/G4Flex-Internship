@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    width: auto;
+    margin: 0; 
+    padding: 0; 
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(img/cody-scott-milewski-aCnkRlBD0i4-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff; 
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 10px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 205px auto; 
+    padding: 20px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255,  0.2);
+    backdrop-filter: blur(30px);
+    border-radius: 10px; 
+}
+
+h1 {
+    text-align: center; 
+    padding-bottom: 10px; 
+}
+
+input {
+    width: 96%;
+    padding: 8px; 
+    font-size: 16px;
+    border: none; 
+    border-radius:5px; 
+    align-items: center; 
+    justify-content: center;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #ac5600; 
+    color: #fff;
+    margin:none;
+    border-radius: 5px; 
+    cursor: pointer;
+    margin-top: 10px;  
+}
+
+ul {
+    list-style-type: none;
+    padding: 0; 
+}
+
+li {
+    padding: 10px; 
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255,  0.2);
+    backdrop-filter: blur(30px);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li:hover {
+    background-color: #071300;
+    transition: 1s;
+}
+
+li span {
+    flex: 1;
+    text-align: left; 
+}
+
+.deleteButton {
+    margin-left: 5px;
+}
+
+
+
